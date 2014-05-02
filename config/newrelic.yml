@@ -5,7 +5,7 @@
 #
 # Generated May 02, 2014
 #
-# This configuration file is custom generated for Incendium Records Ltd_1
+# This configuration file is custom generated for app24770684@heroku.com
 
 
 # Here are the settings that are common to all environments
@@ -15,7 +15,7 @@ common: &default_settings
   # You must specify the license key associated with your New Relic
   # account.  This key binds your Agent's data to your account in the
   # New Relic service.
-  license_key: '1495cc52e75af50003d79653e9d8bac3987b0f3e'
+  license_key: '025ad7dd24f996b08a693ebd6a16e2e8eca3151c'
 
   # Agent Enabled (Ruby/Rails Only)
   # Use this setting to force the agent to run or not run.
