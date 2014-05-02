@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="/stylesheets/application.css" type="text/css">
   </head>
   <body>
-    <h1>There's always time for another game of Sudoku!</h1>
+    <h2>There's always time for another game of Sudoku!</h2>
     <div id="flash">
       <%= flash[:notice] %>
     </div>
@@ -41,7 +41,7 @@
             <button><img class="reset" src="reset-btn.png" alt=""></button>
           </form>
           <form action="http://en.wikipedia.org/wiki/Sudoku">
-            <button><img src="help-btn.png" alt=""></button>
+            <button><img class="help" src="help-btn.png" alt=""></button>
           </form>
             <form action="/change_difficulty" method="get">
               <button name="level" value="5" type="submit"><img class="easy" src="easy-btn.png" alt=""></button>
@@ -54,6 +54,9 @@
       <form action="/retrieve" method="post">
         <button>Retrieve</button>
       </form>
+        <form action="http://en.wikipedia.org/wiki/kanji">
+          <button><img class="kanji" src="sudokukanji.png" alt=""></button>
+        </form>
     </div>
   </div>
 </body>

@@ -22,7 +22,7 @@ html, body {
   position: relative;
 }
 
-h1 {
+h2 {
   color: white;
 }
 
@@ -57,41 +57,56 @@ button {
   height: 22px;
 }
 
-.easy {
+.kanji {
   position: absolute;
-  top: 37%;
+  top: 17%;
   left: 4%;
+  width: 122px;
+  height:122px;
 }
 
-.medium {
+.easy {
   position: absolute;
   top: 42%;
   left: 4%;
 }
 
-.hard {
+.medium {
   position: absolute;
   top: 47%;
   left: 4%;
 }
 
-.check {
+.hard {
   position: absolute;
   top: 52%;
   left: 4%;
 }
 
-.reset {
+.check {
   position: absolute;
   top: 57%;
   left: 4%;
 }
 
-.answer {
+.reset {
   position: absolute;
   top: 62%;
   left: 4%;
 }
+
+.answer {
+  position: absolute;
+  top: 67%;
+  left: 4%;
+}
+
+.help {
+  position: absolute;
+  top: 72%;
+  left: 4%;
+}
+
 
 button img {
   width: 122px;
@@ -107,7 +122,9 @@ button img {
 }
 
 #sudoku {
-  background: url('../SudokuConcept.png') no-repeat center;
+  background: url('../background.png') no-repeat center;
+  width: 720px;
+  height: 500px;
   text-align: center;
 	font-size:  0;
 }
