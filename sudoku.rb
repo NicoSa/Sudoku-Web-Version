@@ -122,7 +122,5 @@ end
 
 post '/retrieve' do
   session[:current_solution] = session[:save]
-  #session[:puzzle] = session[:save][1]
-  #session[:solution] = session[:save][2]
   redirect to ("/")
 end

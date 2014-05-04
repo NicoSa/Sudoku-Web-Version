@@ -16,7 +16,7 @@ html, body {
 }
 
 #container {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -24,6 +24,8 @@ html, body {
 
 h2 {
   color: white;
+  position: relative;
+
 }
 
 div.box, div.cell {
@@ -51,82 +53,100 @@ button {
 
 .sudoku-img {
   position: absolute;
-  top: 12%;
+  top: 5%;
   left: 4%;
-  width: 122px;
-  height: 22px;
+
 }
 
 .kanji {
   position: absolute;
-  top: 17%;
+  top: 10%;
   left: 4%;
-  width: 122px;
-  height:122px;
+  width: 180px;
+  height:178px;
 }
 
 .easy {
   position: absolute;
-  top: 42%;
+  top: 34%;
   left: 4%;
+
 }
 
 .medium {
   position: absolute;
-  top: 47%;
+  top: 39%;
   left: 4%;
+
 }
 
 .hard {
   position: absolute;
-  top: 52%;
+  top: 44%;
   left: 4%;
+
 }
 
 .check {
   position: absolute;
-  top: 57%;
+  top: 54%;
   left: 4%;
-}
 
-.reset {
-  position: absolute;
-  top: 62%;
-  left: 4%;
 }
 
 .answer {
   position: absolute;
-  top: 67%;
+  top: 59%;
   left: 4%;
 }
 
 .help {
   position: absolute;
-  top: 72%;
-  left: 4%;
+  top: 54%;
+  left: 77%;
 }
 
+.reset {
+  position: absolute;
+  top: 34%;
+  left: 77%;
+}
+
+.load {
+  position: absolute;
+  top: 39%;
+  left: 77%;
+}
+
+.save {
+  position: absolute;
+  top: 44%;
+  left: 77%;
+}
 
 button img {
-  width: 122px;
-  height: 22px;
+  width: 180px;
+  height: 36px;
 }
 
 .cell input {
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
   background: #ffe5a1;
   font-family: 'minecraftiaregular', Helvetica;
   text-align: center;
+  font-size:  14;
+
 }
 
 #sudoku {
   background: url('../background.png') no-repeat center;
-  width: 720px;
-  height: 500px;
+  width: 1120px;
+  height: 750px;
   text-align: center;
 	font-size:  0;
+/*  position: relative;
+*/
 }
 
 .box {
