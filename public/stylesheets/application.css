@@ -30,6 +30,7 @@ h2 {
 
 div.box, div.cell {
   display: inline-block;
+  margin: 0;
 }
 
 /*form button {
@@ -53,74 +54,74 @@ button {
 
 .sudoku-img {
   position: absolute;
-  top: 5%;
-  left: 4%;
+  top: 4%;
+  left: 3%;
 
 }
 
 .kanji {
   position: absolute;
-  top: 10%;
-  left: 4%;
+  top: 12%;
+  left: 3%;
   width: 180px;
   height:178px;
 }
 
 .easy {
   position: absolute;
-  top: 34%;
-  left: 4%;
+  top: 46%;
+  left: 3%;
 
 }
 
 .medium {
   position: absolute;
-  top: 39%;
-  left: 4%;
+  top: 53%;
+  left: 3%;
 
 }
 
 .hard {
   position: absolute;
-  top: 44%;
-  left: 4%;
+  top: 60%;
+  left: 3%;
 
 }
 
 .check {
   position: absolute;
-  top: 54%;
-  left: 4%;
+  top: 74%;
+  left: 3%;
 
 }
 
 .answer {
   position: absolute;
-  top: 59%;
-  left: 4%;
+  top: 81%;
+  left: 3%;
 }
 
 .help {
   position: absolute;
-  top: 54%;
+  top: 4%;
   left: 77%;
 }
 
 .reset {
   position: absolute;
-  top: 34%;
+  top: 11%;
   left: 77%;
 }
 
 .load {
   position: absolute;
-  top: 39%;
+  top: 74%;
   left: 77%;
 }
 
 .save {
   position: absolute;
-  top: 44%;
+  top: 81%;
   left: 77%;
 }
 
@@ -130,8 +131,8 @@ button img {
 }
 
 .cell input {
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 45px;
   background: #ffe5a1;
   font-family: 'minecraftiaregular', Helvetica;
   text-align: center;
@@ -141,8 +142,8 @@ button img {
 
 #sudoku {
   background: url('../background.png') no-repeat center;
-  width: 1120px;
-  height: 750px;
+  width: 900px;
+  height: 600px;
   text-align: center;
 	font-size:  0;
 /*  position: relative;
