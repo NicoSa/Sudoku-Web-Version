@@ -20,7 +20,7 @@ html, body {
 }
 
 #container {
-  width: 100%;
+  /*width: 100%;*/
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -28,8 +28,10 @@ html, body {
 
 h2 {
   color: white;
-  position: relative;
-
+  text-align: left;
+  margin-left: 45px;
+/*  width: 70%;
+*/
 }
 
 div.box, div.cell {
@@ -58,75 +60,75 @@ button {
 
 .sudoku-img {
   position: absolute;
-  top: 4%;
-  left: 3%;
+  top: 25px;
+  left: 25px;
 
 }
 
 .kanji {
   position: absolute;
-  top: 12%;
-  left: 3%;
+  top: 68px;
+  left: 25px;
   width: 180px;
   height:178px;
 }
 
 .easy {
   position: absolute;
-  top: 46%;
-  left: 3%;
+  top: 255px;
+  left: 25px;
 
 }
 
 .medium {
   position: absolute;
-  top: 53%;
-  left: 3%;
+  top: 297px;
+  left: 25px;
 
 }
 
 .hard {
   position: absolute;
-  top: 60%;
-  left: 3%;
+  top: 339;
+  left: 25px;
 
 }
 
 .check {
   position: absolute;
   top: 74%;
-  left: 3%;
+  left: 25px;
 
 }
 
 .answer {
   position: absolute;
   top: 81%;
-  left: 3%;
+  left: 25px;
 }
 
 .help {
   position: absolute;
   top: 4%;
-  left: 77%;
+  left: 695px;
 }
 
 .reset {
   position: absolute;
   top: 11%;
-  left: 77%;
+  left: 695px;
 }
 
 .load {
   position: absolute;
   top: 74%;
-  left: 77%;
+  left: 695px;
 }
 
 .save {
   position: absolute;
   top: 81%;
-  left: 77%;
+  left: 695px;
 }
 
 button img {
@@ -155,9 +157,16 @@ button img {
 }
 
 .box {
-  margin: 0 auto;
-  border: 1px solid black;
-  outline: 1px solid black;
+/*  margin: 0 auto;
+*/  border: 4px;
+    border-top-color: #f7e26a; 
+    border-left-color: #f7e26a; 
+    border-bottom-color: #c79a36;
+    border-right-color: #c79a36;
+/*  outline: 1px solid black;*/
+    border-style: ridge;
+
+
 }
 
 .incorrect {
