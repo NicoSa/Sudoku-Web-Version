@@ -9,6 +9,10 @@
     font-style: normal;
 }
 
+#slothtext h1{
+	color: white;
+}
+
 html, body {
   text-align: center;
   font-family: 'minecraftiaregular', Helvetica;
