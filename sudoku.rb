@@ -27,10 +27,18 @@ end
 # this method removes some digits from the solution to create a puzzle
 
 def puzzle(sudoku, difficulty=5)
-  sudoku.map do
+  sliced_in_nine = []
+   sudoku.map do
     |number|
     rand(difficulty) == 1 ? 0 : number
+  end.each_slice(9){|row| sliced_in_nine << row}
+  while sliced_in_nine.all?{|rows| rows.include?(0)} == false do
+    puts "REGENERATING"
+    puzzle(sudoku,difficulty) 
+    break if sliced_in_nine.all?{|rows| rows.include?(0)} == true
   end
+  puts sliced_in_nine.inspect + "THIS IS THE ARRAY THAT WAS DELIVERED\n"
+  return sliced_in_nine.flatten
 end
 
 def box_order_to_row_order(cells)
