@@ -155,9 +155,16 @@ button img {
 }
 
 .box {
-  margin: 0 auto;
-  border: 1px solid black;
-  outline: 1px solid black;
+/*  margin: 0 auto;
+*/  border: 4px;
+    border-top-color: #f7e26a; 
+    border-left-color: #f7e26a; 
+    border-bottom-color: #c79a36;
+    border-right-color: #c79a36;
+/*  outline: 1px solid black;*/
+    border-style: ridge;
+
+
 }
 
 .incorrect {
