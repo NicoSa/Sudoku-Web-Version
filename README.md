@@ -9,7 +9,7 @@ Heroku
 
 Objectives of exercise
 ----
-Basic math logic, object-oriented-programming, nailing String, Arrays and Hashes.
+Basic math logic, object-oriented-programming, nailing Strings, Arrays and Hashes.
 
 Technologies used
 ----
@@ -33,4 +33,4 @@ Pairing Partners
 
 [Apostolis]:https://github.com/apostolistax
 [Rob]:https://github.com/RobertAlexanderLeon
-[App on Heroku]:http://telefonbuch.heroku.com
+[App on Heroku]:http://ran-sudoku-web-heroku-test.heroku.com
