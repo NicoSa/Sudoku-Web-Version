@@ -25,7 +25,7 @@ How to run it
 ````sh
 git clone git@github.com:NicoSa/Sudoku-Web-Version.git
 cd Sudoku-Web-Version
-shotgun server.rb
+shotgun sudoku.rb
 ```
 Pairing Partners
 ---
