@@ -1,4 +1,36 @@
 Sudoku-Web-Version
 ==================
+We created a web version of Sudoku.
+![](sudoku.png)
 
-We create a web version of Sudoku utilizing Sinatra, HTML and CSS at Makers Academy.
+Heroku
+----
+[App on Heroku]
+
+Objectives of exercise
+----
+Basic math logic, object-oriented-programming, nailing String, Arrays and Hashes.
+
+Technologies used
+----
+- Ruby
+- Sinatra
+- HTML5
+- CSS3
+- Git
+- Heroku
+
+How to run it
+----
+````sh
+git clone git@github.com:NicoSa/Sudoku-Web-Version.git
+cd Sudoku-Web-Version
+shotgun server.rb
+```
+Pairing Partners
+---
+[Apostolis], [Rob]
+
+[Apostolis]:https://github.com/apostolistax
+[Rob]:https://github.com/RobertAlexanderLeon
+[App on Heroku]:http://telefonbuch.heroku.com
