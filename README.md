@@ -1,6 +1,6 @@
 Sudoku-Web-Version
 ==================
-We created a web version of Sudoku.
+We created a web version of Sudoku in Week 6 at Makers Academy, London.
 ![](sudoku.png)
 
 Heroku
