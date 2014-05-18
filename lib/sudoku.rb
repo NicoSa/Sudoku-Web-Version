@@ -56,7 +56,7 @@ class Sudoku
     try_harder unless solved?
   end
 
-private
+  private
 
   def replicate!
     self.class.new(self.to_s)

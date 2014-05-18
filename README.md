@@ -19,6 +19,7 @@ Technologies used
 - CSS3
 - Git
 - Heroku
+- New Relic
 
 How to run it
 ----

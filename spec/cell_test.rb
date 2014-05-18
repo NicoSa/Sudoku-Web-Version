@@ -16,7 +16,7 @@ class CellTest < Minitest::Test
   def test_cell_knows_its_neighbours
     set = Set.new
     set.merge([1,2,3,4,5,7,8,9])
-    assert_equal set, @cell.send(:neighbours) 
+    assert_equal set, @cell.send(:neighbours)
   end
 
   def test_cell_can_be_solved
@@ -37,7 +37,7 @@ class CellTest < Minitest::Test
     assert @cell.solved?
   end
 
-private
+  private
 
   def slice(array)
     array.map {|v| Cell.new(v)}
